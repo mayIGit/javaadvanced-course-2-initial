@@ -29,7 +29,7 @@ public class Stream07MinMax {
 
 		System.out.println(productA.price);
 		// min() method to get min Product price
-		Product6 productB = productsList.stream().max((product1, product2) -> product1.price < product2.price ? 1 : -1)
+		Product6 productB = productsList.stream().min((product1, product2) -> product1.price > product2.price ? 1 : -1)
 				.get();
 		System.out.println(productB.price);
 
