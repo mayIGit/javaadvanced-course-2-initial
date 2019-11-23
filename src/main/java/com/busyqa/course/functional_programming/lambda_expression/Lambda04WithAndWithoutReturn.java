@@ -10,7 +10,8 @@ public class Lambda04WithAndWithoutReturn {
         System.out.println(ad1.add(10,20));  
           
         // Lambda expression with return keyword.    
-        Addable ad2=(int a,int b)->{return (a+b);};  
+        Addable ad2=(int a,int b)->{ a= a+1;
+        	                        return (a+b);};  
         System.out.println(ad2.add(100,200));  
     }  
 } 
