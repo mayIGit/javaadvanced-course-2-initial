@@ -24,6 +24,7 @@ public class Stream01ManualFilter {
 		productsList.add(new Product1(3, "Lenevo Laptop", 28000f));
 		productsList.add(new Product1(4, "Sony Laptop", 28000f));
 		productsList.add(new Product1(5, "Apple Laptop", 90000f));
+		
 		List<Float> productPriceList = new ArrayList<Float>();
 		for (Product1 product : productsList) {
 

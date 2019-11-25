@@ -25,6 +25,7 @@ public class Stream03Filter {
 		productsList.add(new Product2(3, "Lenevo Laptop", 28000f));
 		productsList.add(new Product2(4, "Sony Laptop", 28000f));
 		productsList.add(new Product2(5, "Apple Laptop", 90000f));
+		
 		List<Float> productPriceList = productsList.stream()
 				.filter(p -> p.price > 30000)// filtering data
 				.map(p -> p.price) // fetching price
